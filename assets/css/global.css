@@ -1,0 +1,274 @@
+/* Eric Meyer's Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Font Face */
+@font-face {
+	font-family: 'Adelle';
+	src: url('../fonts/Adelle-Light.woff2') format('woff2'), url('../fonts/Adelle-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Adelle';
+	src: url('../fonts/Adelle-Regular.woff2') format('woff2'), url('../fonts/Adelle-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Adelle';
+	src: url('../fonts/Adelle-SemiBold.woff2') format('woff2'), url('../fonts/Adelle-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Adelle';
+	src: url('../fonts/Adelle-Bold.woff2') format('woff2'), url('../fonts/Adelle-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Light.woff2') format('woff2'), url('../fonts/ProximaNova-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Global Typography */
+*, :before, :after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+}
+body {
+	font: 300 18px 'Proxima Nova';
+	color: #000;
+}
+/* Global Headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Adelle';
+}
+h1 {
+	font-size: 36px;
+	color: #fff;
+	font-weight: 700;
+	line-height: 1.1;
+}
+h2 {
+	font-size: 24px;
+	color: #005e83;
+	font-weight: 400;
+}
+h3 {
+	font-size: 24px;
+	color: #005e83;
+	font-weight: 300;
+	line-height: 1.15;
+}
+h4 {
+
+}
+h6 {
+
+}
+/* General Text Formatting */
+p {
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+blockquote {
+	line-height: 1.7;
+	margin-bottom: 28px;
+	font-weight: 400;
+}
+small {
+	font-size: 85.71429%;
+	line-height: 1.75;
+}
+strong {
+	font-weight: 600;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+span
+{
+	display: inline-block;
+}
+/* Global Link style */
+a {
+	color: #000;
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+	color: #ed1c24;
+}
+/* Global Button Styles */
+.reset {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	font: 300 24px 'Proxima Nova';
+	padding: 0;
+	display: inline-block;
+}
+:focus {
+	outline: none;
+}
+.globalbutton {
+	font-size: 24px;
+	color: #757575;
+	border: 1px solid #cdd2d8;
+	padding: 24px 70px 25px 69px;
+	transition:0.4s;
+	cursor: pointer;
+}
+.globalbutton:hover {
+	background: #0d6487;
+	color: #fff;
+}
+/* Global Sprite Icons */
+[class^="icon-"], [class*="icon-"] {
+	background-image: url(../images/sprite.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: text-top;
+	width: 19px;
+	height: 20px;
+	font-size: 0;
+}
+/* Clearfix class*/
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+[class$="-wrapper"] {
+	font-size: 0;
+}
+/* Global style */
+#wrapper {
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.smallcontainer {
+	max-width: 781px;
+	margin: 0 auto;
+	text-align: center;
+}
+.header {
+	background: url('../images/headerback.png') 0 0/100% 100% no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	min-height: 108px;
+}
+.header .menu {
+	padding: 25px 0 10px;
+}
+.header .leftmenu {
+	float: left;
+}
+.header .rightmenu {
+	float: right;
+}
+.header .menu li {
+	float: left;
+	padding: 0px 11.5px;
+}
+.header .leftmenu li:first-child {
+	padding-left: 0;
+}
+.header .rightmenu li:last-child {
+	padding-right: 0;
+}
+.menu li a {
+	color: #fff;
+	text-transform: uppercase;
+}
+.menu li a:hover, .menu li .active {
+	text-decoration: underline;
+}
+.header .logo-wrapper {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	-webkit-transform: translate(-51.3%,0);
+	-moz-transform: translate(-51.3%,0);
+	-ms-transform: translate(-51.3%,0);
+	-o-transform: translate(-51.3%,0);
+	transform: translate(-50%,0);
+}
+.footer {
+	background: url('../images/footer.png') 0 0/100% 100% no-repeat;
+}
+.footer .container {
+	text-align: center;
+	padding: 70px 0 25px;
+	min-height: 144px;
+	line-height: 1.95;
+}
+.footer .container * {
+	display: block;
+	font-size: 13px;
+	color: #fff;
+}

@@ -1,0 +1,337 @@
+/*......................Home Page Start....................*/
+.banner {
+	background: url('../images/banner.jpg') 0 0/100% 100% no-repeat;
+	padding-top: 171px;
+	text-align: center;
+	min-height: 700px;
+	position: relative;
+}
+.banner h1 {
+	margin-bottom: 58px;
+}
+.banner h1 span {
+	display: block;
+	font-weight: 400;
+}
+.banner .learn {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	color: #fff;
+	border: 1px solid #fff;
+	text-shadow: 1px 2px rgba(0,0,0,0.2);
+	padding: 13px 31px 16px 30px;
+}
+.banner .learn:hover {
+	background: #fff;
+	color: #2182ab;
+}
+.banner .magazine-wrapper {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	padding-left: 46px;
+}
+.section {
+	background: url('../images/section.png') top left/100% auto no-repeat;
+	padding: 70px 0 68px;
+}
+.section .smallcontainer > h2 {
+	padding: 0 110px 0 107px;
+	margin-bottom: 18px;
+}
+.section .para {
+	padding: 0 34px;
+	text-indent: 4px;
+}
+.section .tabs {
+	padding: 9px 0;
+}
+.section .tabs li {
+	width: 28.17%;
+	min-height: 257px;
+	margin-right: 7.745%;
+	border: 1px solid #cdd2d8;
+	float: left;
+	padding: 25px 20px 19px 20px;
+}
+.section .tabs li:last-child {
+	margin-right: 0;
+}
+.section .tabs li i {
+	width: 61px;
+	height: 63px;
+	margin-bottom: 20px;
+}
+.tabs .icon-doc {
+	background-position: -61px 0;
+}
+.tabs .icon-bulb {
+	background-position: -122px 0;
+}
+.section .tabs h2 {
+	margin-bottom: 26px;
+}
+.section .tabs p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+.quotearea {
+	background: url('../images/quotarea.jpg');
+	padding: 45px 0 43px;
+	margin-bottom: 120px;
+}
+.quotearea blockquote {
+	padding-left: 2px;
+}
+.quotearea .name {
+	font: 300 15px 'Adelle';
+	letter-spacing: -0.1px;
+	padding: 0 104px 0 103px;
+	position: relative;
+}
+.name::after, .name::before {
+	content: '';
+	width: 59px;
+	height: 1px;
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+}
+.name::before {
+	background: url('../images/nameleft.png');
+	left: 0;
+}
+.name::after {
+	background: url('../images/nameright.png');
+	right: 0;
+}
+.marketing {
+	background: #0d6487;
+	margin-bottom: 163px;
+}
+.marketing .container {
+	padding: 48px 10px 46px;
+	position: relative;
+}
+.marketing .marketingcontent {
+	float: left;
+	width: 49%;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	min-height: 285px;
+}
+.marketingcontent h3 {
+	color: #fff;
+	margin-bottom: 23px;
+	font-size: 28px;
+}
+.marketingcontent h3 strong {
+	display: block;
+	letter-spacing: 0.98px;
+}
+.marketingcontent p {
+	font-size: 17px;
+	line-height: 1.5;
+	margin-bottom: 23px;
+}
+.marketing .book-wrapper {
+	position: absolute;
+	width: 50%;
+	top: 0;
+	right: 0;
+	-webkit-transform: translate(0,-5%);
+	-moz-transform: translate(0,-5%);
+	-ms-transform: translate(0,-20%);
+	-o-transform: translate(0,-20%);
+	transform: translate(4.5%,-7.1%);
+}
+.marketing .request {
+	position: absolute;
+	left: 9px;
+	bottom: 0;
+	margin-bottom: -109px;
+}
+.marketing .request:hover {
+	background: #0d6487;
+	color: #fff;
+}
+/*......................Home Page End....................*/
+/*......................Solution Page Start....................*/
+.innerbanner {
+	background: url('../images/innerbanner.jpg') 0 0/100% 100% no-repeat;
+	padding-top: 187px;
+	text-align: center;
+	height: 309px;
+}
+.innerbanner h1 {
+	font-weight: 700;
+	text-shadow: 2px 3px rgba(0,0,0,0.1);
+}
+.innersection {
+	background: url('../images/section.png') top left/100% auto no-repeat;
+	padding: 80px 0 15px;
+}
+.innersection h2 {
+	padding: 0 85px 0 82px;
+	margin-bottom: 27px;
+}
+.solution p {
+	padding: 0 34px;
+}
+.solution p:nth-child(2) {
+	text-indent: 4px;
+}
+.booklist {
+	background: url('../images/booklist.jpg') 0 0/100% no-repeat;
+	height: 32vh;
+	min-height: 263px;
+	font-size: 0;
+	margin-bottom: 84px;
+}
+.program {
+	background: #0d6487;
+	margin-bottom: 67px;
+}
+.program .steplist {
+	float: left;
+	width: 46.1%;
+	padding: 29px 0 29px 10px;
+	border-right: 1px solid #fff;
+}
+.steplist li {
+	border-top: 1px solid #5693ab;
+	padding: 12px 0px 9px;
+}
+.steplist li:first-child {
+	border-top: 0;
+}
+.steplist li button {
+	color: #fff;
+	text-transform: uppercase;
+}
+.steplist li .active {
+	font-weight: 400;
+}
+.steplist li button:not(.active):hover {
+	text-decoration: line-through;
+}
+.program .stepexplain {
+	float: right;
+	width: 48.8%;
+	padding-top: 43px;
+}
+.stepexplain h3 {
+	font-size: 28px;
+	color: #fff;
+	margin-bottom: 12px;
+	text-shadow: 1px 2px rgba(0,0,0,0.2);
+}
+.stepexplain h3 strong {
+	display: block;
+	letter-spacing: 0.98px;
+}
+.stepexplain p {
+	font-size: 17px;
+	color: #fff;
+	line-height: 1.5;
+	margin-bottom: 25px;
+	padding-right: 7px;
+}
+.container .today {
+	width: 97.9%;
+	margin-left: 11px;
+	text-align: center;
+	margin-bottom: 41px;
+}
+/*......................Solution Page End....................*/
+/*......................Contact Page Start....................*/
+.contact .smallcontainer {
+	width: 643px;
+}
+.contact h2 {
+	margin-bottom: 39px;
+	padding: 0 11px 0 12px;
+}
+.booklinkwrapper {
+	margin-bottom: 64px;
+}
+.booklinkwrapper .row {
+	margin-bottom: 45px;
+	font-size: 0;
+}
+.booklinkwrapper .row2 {
+	margin-bottom: 0;
+}
+.booklinkwrapper .row span {
+	vertical-align: middle;
+	margin-right: 46px;
+}
+.booklinkwrapper .row span:last-child {
+	margin: 0;
+}
+.contactsection {
+	padding: 34px 0 141px;
+}
+.contactsection * {
+	text-align: left;
+	font-size: 24px;
+	color: #757575;
+}
+.contactsection .info {
+	margin-bottom: 73px;
+}
+.info span, .info a {
+	display: block;
+}
+.info .letstalk, .queryform label {
+	float: left;
+	width: 29.64%;
+}
+.info .details, .queryform .inputwrapper {
+	float: right;
+	width: 64%;
+}
+.details .num-email a {
+	margin-bottom: 6px;
+}
+.info .address span {
+	margin-bottom: 1px;
+}
+.details .num-email {
+	margin-bottom: 26px;
+}
+.queryform .line {
+	margin-bottom: 24px;
+}
+.queryform .lastline {
+	margin-bottom: 0px;
+}
+.queryform .line label {
+	padding-top: 11px;
+}
+.inputwrapper *
+{
+	width: 100%;
+	font: 300 24px 'Proxima Nova';
+}
+.inputwrapper .input {	
+	height: 44px;
+	padding: 2px 12px 0;	
+}
+.inputwrapper .textarea
+{
+	height: 140px;
+	padding: 10px 13px;	
+	resize:none;
+}
+.inputwrapper .button
+{
+	padding: 10px 9px 8px 0;
+	text-align:center;
+	background: #e1e1e1;
+	border:1px solid #cdd2d8;	
+	color:#757575;
+}
+/*......................Contact Page End....................*/
